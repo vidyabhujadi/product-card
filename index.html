@@ -4,7 +4,7 @@
     <title>Flexboxes</title>
     <style>
         .container{
-            width:400px;
+            width:700px;
             height:380px;
             background-color: blueviolet;
             padding: 5px;
@@ -12,6 +12,7 @@
             border-radius: 5px;
             flex-direction:row;
             display: flex;
+            justify-content: start;
 
         }
         .item{
@@ -35,7 +36,7 @@
             border: solid 1px whitesmoke;
         }
         .container1{
-            width:400px;
+            width:700px;
             height:380px;
             display: flex;
             background-color: blueviolet;
@@ -43,7 +44,8 @@
             border-radius: 5px;
             margin: 10px;
             flex-direction: row-reverse;
-        }
+            justify-content: end;
+     }
         .item2{
             background-color:#b1dddf;
             width:100px;
@@ -55,14 +57,15 @@
             border: solid 1px whitesmoke;
         }
         .container2{
-            width:400px;
+            width:700px;
             height:380px;
             display: flex;
             background-color: blueviolet;
             padding: 5px;
             border-radius: 5px;
             margin: 10px;
-            flex-direction: column;
+            flex-direction: row;
+            justify-content:center;
         }
         .item3{
             background-color:#b1dddf;
@@ -75,14 +78,59 @@
             border: solid 1px whitesmoke;
         }
         .container3{
-            width:400px;
+            width:700px;
             height:380px;
             display: flex;
             background-color: blueviolet;
             padding: 5px;
             border-radius: 5px;
             margin: 10px;
-            flex-direction: column-reverse;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .item4{
+            background-color:#b1dddf;
+            width:100px;
+            height:100px;
+            margin: 10px;
+            font-size: 50px;
+            padding: 5px;
+            border-radius:10px;
+            border: solid 1px whitesmoke;
+        }
+        .container4{
+            width:700px;
+            height:380px;
+            display: flex;
+            background-color: blueviolet;
+            padding: 5px;
+            border-radius: 5px;
+            margin: 10px;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        .item5{
+            background-color:#b1dddf;
+            width:100px;
+            height:100px;
+            margin: 10px;
+            font-size: 50px;
+            padding: 5px;
+            border-radius:10px;
+            border: solid 1px whitesmoke;
+        }
+        .container5{
+            width:700px;
+            height:380px;
+            display: flex;
+            background-color: blueviolet;
+            padding: 5px;
+            border-radius: 5px;
+            margin: 10px;
+            flex-direction: row;
+            justify-content: space-around;
         }
 
 
@@ -112,6 +160,17 @@
     <div class="item3">1</div>
     <div class="item3">2</div>
     <div class="item3">3</div>
+</div>
+
+<div class="container4">
+    <div class="item4">1</div>
+    <div class="item4">2</div>
+    <div class="item4">3</div>
+</div>
+<div class="container5">
+    <div class="item5">1</div>
+    <div class="item5">2</div>
+    <div class="item5">3</div>
 </div>
 
 
