@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+-<html>
 <head>
     <title>Flexboxes</title>
     <style>
@@ -12,7 +12,7 @@
             border-radius: 5px;
             flex-direction:row;
             display: flex;
-            justify-content: start;
+            align-items: start;
 
         }
         .item{
@@ -43,8 +43,9 @@
             padding: 5px;
             border-radius: 5px;
             margin: 10px;
-            flex-direction: row-reverse;
-            justify-content: end;
+            flex-direction: row;
+            align-items: end;
+            
      }
         .item2{
             background-color:#b1dddf;
@@ -65,7 +66,7 @@
             border-radius: 5px;
             margin: 10px;
             flex-direction: row;
-            justify-content:center;
+            align-items: center;
         }
         .item3{
             background-color:#b1dddf;
@@ -86,55 +87,11 @@
             border-radius: 5px;
             margin: 10px;
             flex-direction: row;
-            justify-content: space-between;
+            flex-wrap: wrap;
+            
         }
 
-        .item4{
-            background-color:#b1dddf;
-            width:100px;
-            height:100px;
-            margin: 10px;
-            font-size: 50px;
-            padding: 5px;
-            border-radius:10px;
-            border: solid 1px whitesmoke;
-        }
-        .container4{
-            width:700px;
-            height:380px;
-            display: flex;
-            background-color: blueviolet;
-            padding: 5px;
-            border-radius: 5px;
-            margin: 10px;
-            flex-direction: row;
-            justify-content: space-evenly;
-        }
-
-        .item5{
-            background-color:#b1dddf;
-            width:100px;
-            height:100px;
-            margin: 10px;
-            font-size: 50px;
-            padding: 5px;
-            border-radius:10px;
-            border: solid 1px whitesmoke;
-        }
-        .container5{
-            width:700px;
-            height:380px;
-            display: flex;
-            background-color: blueviolet;
-            padding: 5px;
-            border-radius: 5px;
-            margin: 10px;
-            flex-direction: row;
-            justify-content: space-around;
-        }
-
-
-    </style>
+         </style>
 </head>
 <body>
     <div class="container">
@@ -172,7 +129,5 @@
     <div class="item5">2</div>
     <div class="item5">3</div>
 </div>
-
-
 </body>
 </html>
