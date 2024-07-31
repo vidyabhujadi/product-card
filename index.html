@@ -4,15 +4,14 @@
     <title>Flexboxes</title>
     <style>
         .container{
-            width:900px;
+            width:400px;
             height:380px;
             background-color: blueviolet;
             padding: 5px;
-            border-radius: 5px;
             margin: 10px;
+            border-radius: 5px;
             flex-direction:row;
             display: flex;
-            align-items: start;
 
         }
         .item{
@@ -36,15 +35,54 @@
             border: solid 1px whitesmoke;
         }
         .container1{
-            width:900px;
+            width:400px;
             height:380px;
             display: flex;
             background-color: blueviolet;
             padding: 5px;
             border-radius: 5px;
             margin: 10px;
-            flex-direction: row;
-            align-items: end;
+            flex-direction: row-reverse;
+        }
+        .item2{
+            background-color:#b1dddf;
+            width:100px;
+            height:100px;
+            margin: 10px;
+            font-size: 50px;
+            padding: 5px;
+            border-radius:10px;
+            border: solid 1px whitesmoke;
+        }
+        .container2{
+            width:400px;
+            height:380px;
+            display: flex;
+            background-color: blueviolet;
+            padding: 5px;
+            border-radius: 5px;
+            margin: 10px;
+            flex-direction: column;
+        }
+        .item3{
+            background-color:#b1dddf;
+            width:100px;
+            height:100px;
+            margin: 10px;
+            font-size: 50px;
+            padding: 5px;
+            border-radius:10px;
+            border: solid 1px whitesmoke;
+        }
+        .container3{
+            width:400px;
+            height:380px;
+            display: flex;
+            background-color: blueviolet;
+            padding: 5px;
+            border-radius: 5px;
+            margin: 10px;
+            flex-direction: column-reverse;
         }
 
 
@@ -62,6 +100,20 @@
     <div class="item1">2</div>
     <div class="item1">3</div>
 </div>
+
+<div class="container2">
+    <div class="item2">1</div>
+    <div class="item2">2</div>
+    <div class="item2">3</div>
+</div>
+
+
+<div class="container3">
+    <div class="item3">1</div>
+    <div class="item3">2</div>
+    <div class="item3">3</div>
+</div>
+
 
 </body>
 </html>
